@@ -1,0 +1,54 @@
+.circle{
+    width:20%;
+    height: 31%;
+     line-height: 300%;
+     margin-bottom: -15%;
+     border-radius: 50%;
+     text-align: center;
+     font-size: 13px;
+     color: white;
+     border: 3px ;
+    background-color: #70bcf9;
+   }
+   .circle1{
+    width:25%;
+    height: 31%;
+     margin-top: 15%;
+     margin-left: 20%;
+     line-height: 300%;
+     margin-bottom: -15%;
+     border-radius: 50%;
+     text-align: center;
+     font-size: 23px;
+     color: white;
+     border: 3px ;
+    background-color: #70bcf9;
+   }
+   .circle3{
+    width:25%;
+   height: 31%;
+    margin-top: 15%;
+    margin-left: 20%;
+    line-height: 300%;
+    margin-bottom: -15%;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    border: 3px ;
+     background-color: #70bcf9;
+   }
+   .circle4{
+    width:25%;
+    height: 31%;
+     margin-top: 15%;
+     margin-left: 20%;
+     line-height: 300%;
+     margin-bottom: -15%;
+     border-radius: 50%;
+     text-align: center;
+     font-size: 23px;
+     color: white;
+     border: 3px ;
+     background-color: #70bcf9;
+    }
