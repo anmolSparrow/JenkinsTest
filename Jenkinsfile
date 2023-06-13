@@ -9,8 +9,8 @@ pipeline {
         stage("Build") {
             steps {
                 dir('my-app') {
-                    bat "npm install @material-ui/core --legacy-peer-deps"
-                    bat "npm install"
+                  
+                    bat "npm install --force"
                     bat "npm run build"
                 }
             }
