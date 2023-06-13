@@ -9,8 +9,10 @@ pipeline {
         stage("Build") {
             steps {
                 dir('my-app') {
-                  
-                    bat "npm install --force"
+                    bat "npm install -g npm-check-updates"
+                    bat "ncu -u"
+                    bat "npm install"
+                    
                     bat "npm run build"
                 }
             }
