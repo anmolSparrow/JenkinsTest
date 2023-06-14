@@ -13,7 +13,7 @@ pipeline {
             steps {
                 dir('my-app') {
                     bat "npm -f install @material-ui/core"
-                    bat "npm install"
+                    bat "npm -f install"
                     bat "npm run build"
                     
                      bat "npm install -g serve"
