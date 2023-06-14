@@ -118,6 +118,7 @@ export default function Home({ headerHandler }) {
     
     React.useEffect(() => {
        memoizedTriggerChange()
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     } , [])
 
 
