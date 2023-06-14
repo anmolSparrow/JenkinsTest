@@ -109,9 +109,15 @@ export default function Home({ headerHandler }) {
             achieved: 63.21
         }
     ]
-
+        const memoizedTriggerChange = useCallback(
+  () => {
+    HeaderHandler('Plant Production Index')
+  },
+  [HeaderHandler],
+);
+    
     React.useEffect(() => {
-        headerHandler('Plant Production Index')
+       memoizedTriggerChange()
     } , [])
 
 
