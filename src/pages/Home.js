@@ -111,8 +111,8 @@ export default function Home({ headerHandler }) {
     ]
 
     React.useEffect(() => {
-
-        headerHandler('Plant Production Index')
+...
+//         headerHandler('Plant Production Index')
 
     } , [])
 
