@@ -109,17 +109,17 @@ export default function Home({ headerHandler }) {
             achieved: 63.21
         }
     ]
-        const memoizedTriggerChange = React.useCallback(
-  () => {
-    headerHandler('Plant Production Index')
-  },
-  [headerHandler],
-);
+ //       const memoizedTriggerChange = React.useCallback(
+//  () => {
+ //   headerHandler('Plant Production Index')
+ // },
+ // [headerHandler],
+//);
     
-    React.useEffect(() => {
-       memoizedTriggerChange()
+//    React.useEffect(() => {
+//       memoizedTriggerChange()
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    } , [])
+ //   } , [])
 
 
 
