@@ -7,6 +7,9 @@ pipeline {
             }
         }
         stage("Build") {
+           environment {
+                CI = 'false'
+            }
             steps {
                 dir('my-app') {
                     bat "npm install -g npm-check-updates"
