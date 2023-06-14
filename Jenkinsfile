@@ -12,10 +12,8 @@ pipeline {
             }
             steps {
                 dir('my-app') {
-                    bat "npm install -g npm-check-updates"
-                    bat "ncu -u"
-                    bat "npm install --legacy-peer-deps"
-                    
+                    bat "npm -f install @material-ui/core"
+                    bat "npm install"
                     bat "npm run build"
                     
                      bat "npm install -g serve"
