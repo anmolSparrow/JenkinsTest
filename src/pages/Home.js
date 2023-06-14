@@ -111,9 +111,9 @@ export default function Home({ headerHandler }) {
     ]
         const memoizedTriggerChange = React.useCallback(
   () => {
-    HeaderHandler('Plant Production Index')
+    headerHandler('Plant Production Index')
   },
-  [HeaderHandler],
+  [headerHandler],
 );
     
     React.useEffect(() => {
