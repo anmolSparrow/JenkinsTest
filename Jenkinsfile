@@ -22,7 +22,7 @@ pipeline {
         stage ("Build Docker Image"){
             steps{
                 script{
-                sh 'docker stop heuristic_babbage'
+                //sh 'docker stop heuristic_babbage'
                 sh 'docker build -t nginx-test .'
                 }
             }
